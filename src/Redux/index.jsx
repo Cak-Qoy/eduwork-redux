@@ -5,8 +5,8 @@ import store from "../app/store";
 const Redux = () => {
   return (
     <Provider store={store}>
-            <Counter />
-          </Provider>
+      <Counter />
+    </Provider>
   );
 };
 
